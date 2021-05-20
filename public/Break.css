@@ -1,0 +1,28 @@
+.break-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 5rem 2rem;
+    border-radius: 2rem;
+    background-color: #676767;
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem;
+}
+
+#break-label {
+    margin: 0;
+}
+
+.button-container button{
+    border: 2px solid black;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
